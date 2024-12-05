@@ -1,0 +1,8 @@
+sources:
+  - ChironSungHK-Regular.designspace
+#  - ChironSungHK-Italic.designspace
+familyName: Chiron Sung HK
+autohintTTF: False
+buildOTF: False
+buildWebfont: False
+buildSmallCap: False
