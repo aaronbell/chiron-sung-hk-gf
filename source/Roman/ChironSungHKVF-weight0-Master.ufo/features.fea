@@ -826,7 +826,7 @@ lookup AlternateSubstitution2 {
     sub cid00750 from [cid59139 cid63167];
     sub cid01403 from [cid63071 cid00001];
     sub cid01431 from [cid63165 cid00095];
-    sub cid40003 from [cid01403];
+    sub space from [cid01403];
     sub cid40005 from [cid59007 cid42311 cid41136];
     sub cid40007 from [cid59008 cid42314 cid41137];
     sub cid40009 from [cid59009 cid42315 cid41138];
@@ -1112,7 +1112,7 @@ lookup AlternateSubstitution2 {
     sub cid63067 from [cid58997 cid63094];
     sub cid63068 from [cid58998 cid63095];
     sub cid63069 from [cid58999 cid63096];
-    sub cid63071 from [cid01403 cid40003];
+    sub cid63071 from [cid01403 space];
     sub cid63072 from [cid58975 cid40888];
     sub cid63073 from [cid58976 cid40900];
     sub cid63074 from [cid58977 cid41002];
@@ -1631,7 +1631,7 @@ lookup SingleSubstitution7 {
     lookupflag 0;
     ;
     # Original source: 6 
-    sub cid40003 by cid00001;
+    sub space by cid00001;
     sub cid40005 by cid00034;
     sub cid40007 by cid00035;
     sub cid40009 by cid00036;
@@ -4512,6 +4512,22 @@ lookup SingleSubstitution45 {
     sub cid65248 by cid01690;
 } SingleSubstitution45;
 
+lookup SingleSubstitution70 {
+    lookupflag 0;
+    ;
+    # Original source: 69 
+    sub cid40752 by cid43191;
+    sub cid40755 by cid43193;
+    sub cid40757 by cid43196;
+    sub cid40758 by cid43198;
+    sub cid40761 by cid43199;
+    sub cid40764 by cid43201;
+    sub cid40769 by cid43203;
+    sub cid40771 by cid43204;
+    sub cid40776 by cid43205;
+    sub cid40779 by cid43208;
+} SingleSubstitution70;
+
 lookup LigatureSubstitution46 {
     lookupflag 0;
     ;
@@ -4936,7 +4952,7 @@ lookup SingleSubstitution48 {
     sub cid00750 by cid59139;
     sub cid01356 by cid63050;
     sub cid01357 by cid63051;
-    sub cid40003 by cid01403;
+    sub space by cid01403;
     sub cid40005 by cid59007;
     sub cid40007 by cid59008;
     sub cid40009 by cid59009;
@@ -5524,7 +5540,7 @@ lookup SingleSubstitution50 {
     sub cid63015 by cid00001;
     sub cid63050 by cid42291;
     sub cid63051 by cid42292;
-    sub cid63071 by cid40003;
+    sub cid63071 by space;
     sub cid63072 by cid40888;
     sub cid63073 by cid40900;
     sub cid63074 by cid41002;
@@ -6217,7 +6233,7 @@ lookup SingleSubstitution84 {
     lookupflag 0;
     ;
     # Original source: 83 
-    sub cid40003 by cid41302;
+    sub space by cid41302;
     sub cid41103 by cid41073;
     sub cid41104 by cid41077;
     sub cid41107 by cid41079;
@@ -6240,7 +6256,7 @@ lookup ChainedContextualGSUB63 {
     lookupflag 0;
     ;
     # Original source: 62 
-    sub @class178 cid40003' lookup SingleSubstitution84;
+    sub @class178 space' lookup SingleSubstitution84;
     sub @class180 @class179' lookup SingleSubstitution84;
     sub @class182 cid41302 @class179' lookup SingleSubstitution84;
 } ChainedContextualGSUB63;
@@ -6687,22 +6703,6 @@ lookup SingleSubstitution69 {
     sub cid42230 by cid43387;
     sub cid42231 by cid43390;
 } SingleSubstitution69;
-
-lookup SingleSubstitution70 {
-    lookupflag 0;
-    ;
-    # Original source: 69 
-    sub cid40752 by cid43191;
-    sub cid40755 by cid43193;
-    sub cid40757 by cid43196;
-    sub cid40758 by cid43198;
-    sub cid40761 by cid43199;
-    sub cid40764 by cid43201;
-    sub cid40769 by cid43203;
-    sub cid40771 by cid43204;
-    sub cid40776 by cid43205;
-    sub cid40779 by cid43208;
-} SingleSubstitution70;
 
 lookup SingleSubstitution71 {
     lookupflag 0;
@@ -12102,9 +12102,9 @@ lookup Extension41 {
     lookupflag IgnoreMarks;
     ;
     # Original source: 15 
-    pos cid40003 cid40050 -31;
-    pos cid40003 cid41748 -21;
-    pos cid40003 cid42010 -31;
+    pos space cid40050 -31;
+    pos space cid41748 -21;
+    pos space cid42010 -31;
     pos cid40007 cid40050 -51;
     pos cid40007 cid40057 -31;
     pos cid40007 cid40086 -10;
@@ -12141,7 +12141,7 @@ lookup Extension41 {
     pos cid40041 cid41001 15;
     pos cid40041 cid42411 -84;
     pos cid40047 cid40483 1;
-    pos cid40050 cid40003 -41;
+    pos cid40050 space -41;
     pos cid40050 cid40086 -78;
     pos cid40050 cid40101 -73;
     pos cid40050 cid40138 -145;
@@ -13193,7 +13193,7 @@ lookup Extension41 {
     pos cid41938 cid42260 -73;
     pos cid41938 cid43308 -12;
     pos cid41938 cid43368 -84;
-    pos cid41943 cid40003 -21;
+    pos cid41943 space -21;
     pos cid41943 cid40744 -1;
     pos cid41943 cid40931 -21;
     pos cid41943 cid40933 -84;
@@ -13291,7 +13291,7 @@ lookup Extension41 {
     pos cid42006 cid42220 2;
     pos cid42006 cid42234 1;
     pos cid42010 cid42138 -9;
-    pos cid42012 cid40003 -1;
+    pos cid42012 space -1;
     pos cid42012 cid40931 -3;
     pos cid42012 cid40974 -4;
     pos cid42012 cid40978 1;
@@ -15073,12 +15073,12 @@ lookup Extension41 {
     pos cid40974 [cid41793 cid41800 cid41854] -16;
     pos cid40974 [cid40487 cid40488 cid40491 cid40496 cid40500] 26;
     pos cid40974 [cid40907 cid40908] -83;
-    pos cid40003 [cid40047 cid40313 cid40315 cid40316 cid40318 cid40319] -21;
-    pos cid40003 [cid40056 cid40355 cid40357 cid40359 cid40361] -31;
-    pos cid40003 [cid40059 cid40363 cid40365 cid40367 cid40368 cid40370 cid40371 cid40373 cid40374] -31;
-    pos cid40003 [cid41943 cid41963 cid41979 cid41996 cid42022] -21;
-    pos cid40003 [cid42027 cid42029] -31;
-    pos cid40003 [cid41750 cid41773] -31;
+    pos space [cid40047 cid40313 cid40315 cid40316 cid40318 cid40319] -21;
+    pos space [cid40056 cid40355 cid40357 cid40359 cid40361] -31;
+    pos space [cid40059 cid40363 cid40365 cid40367 cid40368 cid40370 cid40371 cid40373 cid40374] -31;
+    pos space [cid41943 cid41963 cid41979 cid41996 cid42022] -21;
+    pos space [cid42027 cid42029] -31;
+    pos space [cid41750 cid41773] -31;
     pos cid41230 [cid40803 cid40876] -5;
     pos cid41230 [cid40785 cid40860] -12;
     pos cid41230 [cid40800 cid40872] -15;
@@ -15717,7 +15717,7 @@ lookup Extension41 {
     pos [cid41912 cid41980 cid42015] [cid42072 cid42075 cid42083 cid42085 cid42086 cid42089 cid42092 cid42095 cid42109 cid42112 cid42113 cid42116 cid42118 cid42121 cid42131 cid42144 cid42153 cid42156 cid42163 cid42170 cid42172 cid42177 cid42180 cid42209 cid42261 cid42263 cid42264] -42;
     pos [cid41912 cid41980 cid42015] [cid42080 cid42106 cid42174 cid42187 cid42192 cid42238] -50;
     pos [cid41912 cid41980 cid42015] [cid40884 cid40885] -11;
-    pos [cid41912 cid41980 cid42015] cid40003 -21;
+    pos [cid41912 cid41980 cid42015] space -21;
     pos [cid41912 cid41980 cid42015] cid40744 -1;
     pos [cid43250 cid43315 cid43342] [cid43292 cid43358] -5;
     pos [cid43250 cid43315 cid43342] [cid43285 cid43296 cid43313 cid43329 cid43348] 14;
@@ -16102,7 +16102,7 @@ lookup Extension41 {
     pos [cid41947 cid42003 cid42010 cid42057 cid42059] cid42234 -47;
     pos [cid41947 cid42003 cid42010 cid42057 cid42059] cid42142 -21;
     pos [cid41947 cid42003 cid42010 cid42057 cid42059] cid40974 -89;
-    pos [cid41947 cid42003 cid42010 cid42057 cid42059] cid40003 -41;
+    pos [cid41947 cid42003 cid42010 cid42057 cid42059] space -41;
     pos [cid41947 cid42003 cid42010 cid42057 cid42059] cid40933 -162;
     pos [cid41947 cid42003 cid42010 cid42057 cid42059] cid42233 -6;
     pos [cid41947 cid42003 cid42010 cid42057 cid42059] cid42126 -95;
@@ -16202,7 +16202,7 @@ lookup Extension41 {
     pos [cid42027 cid42029] cid42234 -67;
     pos [cid42027 cid42029] cid42142 -32;
     pos [cid42027 cid42029] cid40974 -93;
-    pos [cid42027 cid42029] cid40003 -36;
+    pos [cid42027 cid42029] space -36;
     pos [cid42027 cid42029] cid40933 -114;
     pos [cid42027 cid42029] cid42233 -17;
     pos [cid42027 cid42029] cid42126 -109;
@@ -17253,7 +17253,7 @@ lookup Extension41 {
     pos [cid41709 cid41748] cid40999 -21;
     pos [cid41709 cid41748] cid41890 -11;
     pos [cid41709 cid41748] cid40974 -54;
-    pos [cid41709 cid41748] cid40003 -21;
+    pos [cid41709 cid41748] space -21;
     pos [cid41709 cid41748] cid40933 -84;
     pos [cid41709 cid41748] cid41791 -10;
     pos [cid41709 cid41748] cid40744 -1;
@@ -17402,7 +17402,7 @@ lookup Extension41 {
     pos [cid41750 cid41772 cid41773] cid40999 -47;
     pos [cid41750 cid41772 cid41773] cid41890 -62;
     pos [cid41750 cid41772 cid41773] cid40974 -93;
-    pos [cid41750 cid41772 cid41773] cid40003 -36;
+    pos [cid41750 cid41772 cid41773] space -36;
     pos [cid41750 cid41772 cid41773] cid40933 -114;
     pos [cid41750 cid41772 cid41773] cid41791 -21;
     pos [cid41750 cid41772 cid41773] cid43136 -21;
@@ -18466,7 +18466,7 @@ lookup Extension41 {
     pos [cid40047 cid40313 cid40315 cid40316 cid40318 cid40319] [cid40091 cid40585 cid40587 cid40588 cid40590 cid40591 cid40592 cid40594] -52;
     pos [cid40047 cid40313 cid40315 cid40316 cid40318 cid40319] [cid40104 cid40680 cid40683 cid40686 cid40687] -59;
     pos [cid40047 cid40313 cid40315 cid40316 cid40318 cid40319] [cid40884 cid40885] -11;
-    pos [cid40047 cid40313 cid40315 cid40316 cid40318 cid40319] cid40003 -21;
+    pos [cid40047 cid40313 cid40315 cid40316 cid40318 cid40319] space -21;
     pos [cid40047 cid40313 cid40315 cid40316 cid40318 cid40319] [cid40075 cid40483 cid40484 cid40490 cid40492 cid40495 cid40498 cid40499] -1;
     pos [cid40047 cid40313 cid40315 cid40316 cid40318 cid40319] cid40744 -1;
     pos [cid42358 cid43005 cid43008 cid43010 cid43014 cid43020 cid43024] [cid42311 cid42369 cid42370 cid42372 cid42373 cid42375 cid42377 cid42379 cid42381 cid42383 cid42385 cid42387 cid42389 cid42390 cid42393 cid42395 cid42397 cid42401 cid42403 cid42404 cid42407 cid42408 cid42410] -38;
@@ -18684,7 +18684,7 @@ lookup Extension41 {
     pos [cid40056 cid40355 cid40357 cid40359 cid40361] [cid40091 cid40585 cid40587 cid40588 cid40590 cid40591 cid40592 cid40594] -78;
     pos [cid40056 cid40355 cid40357 cid40359 cid40361] [cid40104 cid40680 cid40683 cid40686 cid40687] -67;
     pos [cid40056 cid40355 cid40357 cid40359 cid40361] [cid40884 cid40885] -42;
-    pos [cid40056 cid40355 cid40357 cid40359 cid40361] cid40003 -41;
+    pos [cid40056 cid40355 cid40357 cid40359 cid40361] space -41;
     pos [cid40056 cid40355 cid40357 cid40359 cid40361] [cid40075 cid40483 cid40484 cid40490 cid40492 cid40495 cid40498 cid40499] -21;
     pos [cid40056 cid40355 cid40357 cid40359 cid40361] [cid40077 cid40503 cid40505] -21;
     pos [cid40056 cid40355 cid40357 cid40359 cid40361] [cid40792 cid40867] -42;
@@ -18757,7 +18757,7 @@ lookup Extension41 {
     pos [cid40059 cid40363 cid40365 cid40367 cid40368 cid40370 cid40371 cid40373 cid40374] [cid40091 cid40585 cid40587 cid40588 cid40590 cid40591 cid40592 cid40594] -89;
     pos [cid40059 cid40363 cid40365 cid40367 cid40368 cid40370 cid40371 cid40373 cid40374] [cid40104 cid40680 cid40683 cid40686 cid40687] -94;
     pos [cid40059 cid40363 cid40365 cid40367 cid40368 cid40370 cid40371 cid40373 cid40374] [cid40884 cid40885] -62;
-    pos [cid40059 cid40363 cid40365 cid40367 cid40368 cid40370 cid40371 cid40373 cid40374] cid40003 -36;
+    pos [cid40059 cid40363 cid40365 cid40367 cid40368 cid40370 cid40371 cid40373 cid40374] space -36;
     pos [cid40059 cid40363 cid40365 cid40367 cid40368 cid40370 cid40371 cid40373 cid40374] [cid40075 cid40483 cid40484 cid40490 cid40492 cid40495 cid40498 cid40499] -40;
     pos [cid40059 cid40363 cid40365 cid40367 cid40368 cid40370 cid40371 cid40373 cid40374] [cid40077 cid40503 cid40505] -32;
     pos [cid40059 cid40363 cid40365 cid40367 cid40368 cid40370 cid40371 cid40373 cid40374] [cid40792 cid40867] -42;
@@ -22423,6 +22423,11 @@ feature hwid {
 
 } hwid;
 
+feature smcp {
+        lookup SingleSubstitution70;
+
+} smcp;
+
 feature liga {
         lookup LigatureSubstitution46;
 
@@ -22467,11 +22472,6 @@ feature sinf {
         lookup SingleSubstitution68;
 
 } sinf;
-
-feature smcp {
-        lookup SingleSubstitution70;
-
-} smcp;
 
 feature ss01 {
         lookup SingleSubstitution56;

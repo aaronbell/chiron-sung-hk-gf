@@ -13,7 +13,7 @@ group.add_argument("--sources", action="store_true")
 group.add_argument("--family", action="store_true")
 args = parser.parse_args()
 
-with open(os.path.join("sources", "config.yaml")) as config:
+with open(os.path.join("source", "config.yaml")) as config:
     data = config.read()
 
 if args.family:
@@ -34,7 +34,7 @@ for line in data.splitlines():
     if toggle:
         m = re.match(r"^\s*-\s*(.*)", line)
         if m:
-            sources.append("sources/" + m[1])
+            sources.append("source/" + m[1])
         else:
             toggle = False
 if sources:

@@ -264,7 +264,7 @@ lookup AlternateSubstitution2 {
     sub cid00750 from [cid59139 cid63167];
     sub cid01403 from [cid63071 cid00001];
     sub cid01431 from [cid63165 cid00095];
-    sub cid40003 from [cid01403];
+    sub space from [cid01403];
     sub cid40005 from [cid59007];
     sub cid40007 from [cid59008];
     sub cid40009 from [cid59009];
@@ -518,7 +518,7 @@ lookup AlternateSubstitution2 {
     sub cid63067 from [cid58997 cid63094];
     sub cid63068 from [cid58998 cid63095];
     sub cid63069 from [cid58999 cid63096];
-    sub cid63071 from [cid01403 cid40003];
+    sub cid63071 from [cid01403 space];
     sub cid63072 from [cid58975 cid40900];
     sub cid63073 from [cid58976 cid40913];
     sub cid63074 from [cid58977 cid41016];
@@ -1037,7 +1037,7 @@ lookup SingleSubstitution7 {
     lookupflag 0;
     ;
     # Original source: 6 
-    sub cid40003 by cid00001;
+    sub space by cid00001;
     sub cid40005 by cid00034;
     sub cid40007 by cid00035;
     sub cid40009 by cid00036;
@@ -4351,7 +4351,7 @@ lookup SingleSubstitution48 {
     sub cid00750 by cid59139;
     sub cid01356 by cid63050;
     sub cid01357 by cid63051;
-    sub cid40003 by cid01403;
+    sub space by cid01403;
     sub cid40005 by cid59007;
     sub cid40007 by cid59008;
     sub cid40009 by cid59009;
@@ -4939,7 +4939,7 @@ lookup SingleSubstitution50 {
     sub cid63015 by cid00001;
     sub cid63050 by cid42227;
     sub cid63051 by cid42230;
-    sub cid63071 by cid40003;
+    sub cid63071 by space;
     sub cid63072 by cid40900;
     sub cid63073 by cid40913;
     sub cid63074 by cid41016;
@@ -5623,7 +5623,7 @@ lookup SingleSubstitution80 {
     lookupflag 0;
     ;
     # Original source: 79 
-    sub cid40003 by cid41236;
+    sub space by cid41236;
     sub cid41115 by cid41086;
     sub cid41118 by cid41089;
     sub cid41119 by cid41090;
@@ -5646,7 +5646,7 @@ lookup ChainedContextualGSUB63 {
     lookupflag 0;
     ;
     # Original source: 62 
-    sub @class178 cid40003' lookup SingleSubstitution80;
+    sub @class178 space' lookup SingleSubstitution80;
     sub @class180 @class179' lookup SingleSubstitution80;
     sub @class182 cid41236 @class179' lookup SingleSubstitution80;
 } ChainedContextualGSUB63;

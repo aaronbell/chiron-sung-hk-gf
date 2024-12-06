@@ -1,6 +1,6 @@
 sources:
-  - ChironSungHK-Regular.designspace
-#  - ChironSungHK-Italic.designspace
+  - ChironSungHK-Italic.designspace
+  - ChironSungHK.designspace
 familyName: Chiron Sung HK
 autohintTTF: False
 buildOTF: False

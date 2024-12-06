@@ -4682,27 +4682,6 @@
       <key>public.kern2.cid01607</key>
       <integer>-50</integer>
     </dict>
-    <key>cid40003</key>
-    <dict>
-      <key>cid40050</key>
-      <integer>-31</integer>
-      <key>cid41748</key>
-      <integer>-21</integer>
-      <key>cid42010</key>
-      <integer>-31</integer>
-      <key>public.kern2.cid40047</key>
-      <integer>-21</integer>
-      <key>public.kern2.cid40056</key>
-      <integer>-31</integer>
-      <key>public.kern2.cid40059</key>
-      <integer>-31</integer>
-      <key>public.kern2.cid41750</key>
-      <integer>-31</integer>
-      <key>public.kern2.cid41943</key>
-      <integer>-21</integer>
-      <key>public.kern2.cid42027</key>
-      <integer>-31</integer>
-    </dict>
     <key>cid40007</key>
     <dict>
       <key>cid40050</key>
@@ -4887,8 +4866,6 @@
     </dict>
     <key>cid40050</key>
     <dict>
-      <key>cid40003</key>
-      <integer>-41</integer>
       <key>cid40086</key>
       <integer>-78</integer>
       <key>cid40101</key>
@@ -5023,6 +5000,8 @@
       <integer>-42</integer>
       <key>public.kern2.cid42355</key>
       <integer>-21</integer>
+      <key>space</key>
+      <integer>-41</integer>
     </dict>
     <key>cid40056</key>
     <dict>
@@ -9475,8 +9454,6 @@
     </dict>
     <key>cid41943</key>
     <dict>
-      <key>cid40003</key>
-      <integer>-21</integer>
       <key>cid40744</key>
       <integer>-1</integer>
       <key>cid40931</key>
@@ -9598,6 +9575,8 @@
       <key>public.kern2.cid43251</key>
       <integer>-27</integer>
       <key>public.kern2.cid43288</key>
+      <integer>-21</integer>
+      <key>space</key>
       <integer>-21</integer>
     </dict>
     <key>cid41947</key>
@@ -9962,8 +9941,6 @@
     </dict>
     <key>cid42012</key>
     <dict>
-      <key>cid40003</key>
-      <integer>-1</integer>
       <key>cid40931</key>
       <integer>-3</integer>
       <key>cid40974</key>
@@ -10034,6 +10011,8 @@
       <integer>-6</integer>
       <key>public.kern2.cid41943</key>
       <integer>1</integer>
+      <key>space</key>
+      <integer>-1</integer>
     </dict>
     <key>cid42017</key>
     <dict>
@@ -16801,8 +16780,6 @@
     </dict>
     <key>public.kern1.cid40047</key>
     <dict>
-      <key>cid40003</key>
-      <integer>-21</integer>
       <key>cid40057</key>
       <integer>-5</integer>
       <key>cid40086</key>
@@ -16907,6 +16884,8 @@
       <integer>32</integer>
       <key>public.kern2.cid42311</key>
       <integer>-42</integer>
+      <key>space</key>
+      <integer>-21</integer>
     </dict>
     <key>public.kern1.cid40049</key>
     <dict>
@@ -17033,8 +17012,6 @@
     </dict>
     <key>public.kern1.cid40056</key>
     <dict>
-      <key>cid40003</key>
-      <integer>-41</integer>
       <key>cid40086</key>
       <integer>-73</integer>
       <key>cid40101</key>
@@ -17151,11 +17128,11 @@
       <integer>-21</integer>
       <key>public.kern2.cid42355</key>
       <integer>-17</integer>
+      <key>space</key>
+      <integer>-41</integer>
     </dict>
     <key>public.kern1.cid40059</key>
     <dict>
-      <key>cid40003</key>
-      <integer>-36</integer>
       <key>cid40086</key>
       <integer>-93</integer>
       <key>cid40101</key>
@@ -17290,6 +17267,8 @@
       <integer>-21</integer>
       <key>public.kern2.cid42367</key>
       <integer>-21</integer>
+      <key>space</key>
+      <integer>-36</integer>
     </dict>
     <key>public.kern1.cid40060</key>
     <dict>
@@ -22922,8 +22901,6 @@
     </dict>
     <key>public.kern1.cid41709</key>
     <dict>
-      <key>cid40003</key>
-      <integer>-21</integer>
       <key>cid40744</key>
       <integer>-1</integer>
       <key>cid40931</key>
@@ -23034,6 +23011,8 @@
       <integer>6</integer>
       <key>public.kern2.cid43121</key>
       <integer>-42</integer>
+      <key>space</key>
+      <integer>-21</integer>
     </dict>
     <key>public.kern1.cid41713</key>
     <dict>
@@ -23264,8 +23243,6 @@
     </dict>
     <key>public.kern1.cid41750</key>
     <dict>
-      <key>cid40003</key>
-      <integer>-36</integer>
       <key>cid40744</key>
       <integer>-41</integer>
       <key>cid40931</key>
@@ -23398,6 +23375,8 @@
       <integer>-10</integer>
       <key>public.kern2.cid43163</key>
       <integer>-21</integer>
+      <key>space</key>
+      <integer>-36</integer>
     </dict>
     <key>public.kern1.cid41760</key>
     <dict>
@@ -24263,8 +24242,6 @@
     </dict>
     <key>public.kern1.cid41912</key>
     <dict>
-      <key>cid40003</key>
-      <integer>-21</integer>
       <key>cid40744</key>
       <integer>-1</integer>
       <key>cid40931</key>
@@ -24393,6 +24370,8 @@
       <integer>-53</integer>
       <key>public.kern2.cid43288</key>
       <integer>-42</integer>
+      <key>space</key>
+      <integer>-21</integer>
     </dict>
     <key>public.kern1.cid41913</key>
     <dict>
@@ -24938,8 +24917,6 @@
     </dict>
     <key>public.kern1.cid41947</key>
     <dict>
-      <key>cid40003</key>
-      <integer>-41</integer>
       <key>cid40744</key>
       <integer>-34</integer>
       <key>cid40931</key>
@@ -25122,6 +25099,8 @@
       <integer>-42</integer>
       <key>public.kern2.cid43353</key>
       <integer>-21</integer>
+      <key>space</key>
+      <integer>-41</integer>
     </dict>
     <key>public.kern1.cid41948</key>
     <dict>
@@ -25418,8 +25397,6 @@
     </dict>
     <key>public.kern1.cid42027</key>
     <dict>
-      <key>cid40003</key>
-      <integer>-36</integer>
       <key>cid40744</key>
       <integer>-41</integer>
       <key>cid40931</key>
@@ -25582,6 +25559,8 @@
       <integer>-32</integer>
       <key>public.kern2.cid43353</key>
       <integer>-21</integer>
+      <key>space</key>
+      <integer>-36</integer>
     </dict>
     <key>public.kern1.cid42068</key>
     <dict>
@@ -28634,6 +28613,27 @@
       <integer>-45</integer>
       <key>public.kern2.cid43292</key>
       <integer>-11</integer>
+    </dict>
+    <key>space</key>
+    <dict>
+      <key>cid40050</key>
+      <integer>-31</integer>
+      <key>cid41748</key>
+      <integer>-21</integer>
+      <key>cid42010</key>
+      <integer>-31</integer>
+      <key>public.kern2.cid40047</key>
+      <integer>-21</integer>
+      <key>public.kern2.cid40056</key>
+      <integer>-31</integer>
+      <key>public.kern2.cid40059</key>
+      <integer>-31</integer>
+      <key>public.kern2.cid41750</key>
+      <integer>-31</integer>
+      <key>public.kern2.cid41943</key>
+      <integer>-21</integer>
+      <key>public.kern2.cid42027</key>
+      <integer>-31</integer>
     </dict>
   </dict>
 </plist>
