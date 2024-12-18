@@ -24,7 +24,7 @@ build.stamp: venv source/config.yaml $(SOURCES)
 	rm -rf fonts
 	(for config in source/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)  && touch build.stamp
 	. venv/bin/activate; python source/post.py
-	. venv/bin/activate; pyftsubset fonts/variable/ChironSungHK[wght].ttf --glyphs-file=source/Roman/subset_roman.txt --no-layout-closure --notdef-glyph --glyph-names --name-IDs=* --notdef-outline --output-file=pyftsubset fonts/variable/ChironSungHK[wght].ttf
+	. venv/bin/activate; pyftsubset fonts/variable/ChironSungHK[wght].ttf --glyphs-file=source/Roman/subset_roman.txt --no-layout-closure --notdef-glyph --glyph-names --name-IDs=* --notdef-outline --output-file=fonts/variable/ChironSungHK[wght].ttf
 	. venv/bin/activate; pyftsubset fonts/variable/ChironSungHK-Italic[wght].ttf --glyphs-file=source/Italic/subset_italic.txt --no-layout-closure --notdef-glyph --glyph-names --name-IDs=* --notdef-outline --output-file=fonts/variable/ChironSungHK-Italic[wght].ttf
 
 venv/touchfile: requirements.txt
