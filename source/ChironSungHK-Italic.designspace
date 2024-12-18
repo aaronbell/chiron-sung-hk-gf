@@ -4,7 +4,6 @@
         <axis default="200" maximum="900" minimum="200" name="weight" tag="wght">
             <map input="200" output="0"/>  <!-- ExtraLight -->
             <map input="300" output="95"/> <!-- Light -->
-            <map input="350" output="153"/> <!-- *Book -->
             <map input="400" output="210"/> <!-- Regular -->
             <map input="500" output="360"/> <!-- Medium -->
             <map input="600" output="510"/> <!-- SemiBold -->
