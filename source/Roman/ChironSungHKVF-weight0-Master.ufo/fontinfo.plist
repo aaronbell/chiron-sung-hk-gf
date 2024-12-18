@@ -38,7 +38,7 @@
     <key>openTypeHeadLowestRecPPEM</key>
     <integer>3</integer>
     <key>openTypeHheaAscender</key>
-    <integer>1160</integer>
+    <integer>969</integer>
     <key>openTypeHheaCaretOffset</key>
     <integer>0</integer>
     <key>openTypeHheaCaretSlopeRise</key>
@@ -46,7 +46,7 @@
     <key>openTypeHheaCaretSlopeRun</key>
     <integer>0</integer>
     <key>openTypeHheaDescender</key>
-    <integer>-288</integer>
+    <integer>-211</integer>
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
     <key>openTypeNameCompatibleFullName</key>
@@ -162,7 +162,9 @@
       <integer>0</integer>
     </array>
     <key>openTypeOS2Selection</key>
-    <array/>
+    <array>
+      <integer>7</integer>
+    </array>
     <key>openTypeOS2StrikeoutPosition</key>
     <integer>308</integer>
     <key>openTypeOS2StrikeoutSize</key>
@@ -186,9 +188,9 @@
     <key>openTypeOS2Type</key>
     <array/>
     <key>openTypeOS2TypoAscender</key>
-    <integer>880</integer>
+    <integer>969</integer>
     <key>openTypeOS2TypoDescender</key>
-    <integer>-120</integer>
+    <integer>-211</integer>
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2UnicodeRanges</key>

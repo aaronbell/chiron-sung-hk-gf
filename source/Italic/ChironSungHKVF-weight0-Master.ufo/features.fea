@@ -18341,3 +18341,22 @@ feature vpal {
 
 } vpal;
 
+table BASE {
+  HorizAxis.BaseTagList     icfb  icft  ideo  romn;
+  HorizAxis.BaseScriptList  
+                DFLT 	ideo  	-71   829  -121     0,
+                hani  	ideo   	-71   829  -121     0,
+                kana  	ideo   	-71   829  -121     0,
+                latn  	romn   	-71   829  -121     0,
+                cyrl  	romn   	-71   829  -121     0,
+                grek  	romn   	-71   829  -121     0;
+
+  VertAxis.BaseTagList      icfb  icft  ideo  romn;
+  VertAxis.BaseScriptList 
+                DFLT  	ideo    	38   966     0   121,
+                hani  	ideo    	38   966     0   121,
+                kana  	ideo    	38   966     0   121,
+                latn  	romn   	    38   966     0   121,
+                cyrl  	romn    	38   966     0   121,
+                grek  	romn    	38   966     0   121;
+} BASE;
