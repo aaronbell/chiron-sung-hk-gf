@@ -15,6 +15,8 @@
     <sources>
 		<source filename="Roman/ChironSungHKVF-weight0-Master.ufo">
 			<info copy="1"/>
+            <groups copy="1"/>
+            <info copy="1"/>
 			<location>
 				<dimension name="weight" xvalue="0"/>
 			</location>

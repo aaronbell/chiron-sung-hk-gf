@@ -11,7 +11,7 @@
     <key>descender</key>
     <integer>-120</integer>
     <key>familyName</key>
-    <string>Chiron Sung HK ExtraLight</string>
+    <string>Chiron Sung HK</string>
     <key>guidelines</key>
     <array/>
     <key>italicAngle</key>
@@ -50,7 +50,7 @@
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
     <key>openTypeNameCompatibleFullName</key>
-    <string>Chiron Sung HK ExtraLight</string>
+    <string>Chiron Sung HK Regular</string>
     <key>openTypeNameDescription</key>
     <string>Dr. Ken Lunde (project architect, glyph set definition &amp; overall production); Masataka HATTORI 服部正貴 (production &amp; ideograph elements); Zachary Quinn Scheuren (variable font &amp; overall production); based on Source Han Serif v2.003</string>
     <key>openTypeNameDesigner</key>
@@ -70,7 +70,68 @@
     <key>openTypeNamePreferredSubfamilyName</key>
     <string>ExtraLight</string>
     <key>openTypeNameRecords</key>
-    <array/>
+    <array>
+      <dict>
+        <key>encodingID</key>
+        <integer>1</integer>
+        <key>languageID</key>
+        <integer>1033</integer>
+        <key>nameID</key>
+        <integer>4</integer>
+        <key>platformID</key>
+        <integer>3</integer>
+        <key>string</key>
+        <string>Chiron Sung HK Regular</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>1</integer>
+        <key>languageID</key>
+        <integer>1033</integer>
+        <key>nameID</key>
+        <integer>13</integer>
+        <key>platformID</key>
+        <integer>3</integer>
+        <key>string</key>
+        <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: openfontlicense.org</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>1</integer>
+        <key>languageID</key>
+        <integer>1033</integer>
+        <key>nameID</key>
+        <integer>16</integer>
+        <key>platformID</key>
+        <integer>3</integer>
+        <key>string</key>
+        <string>Chiron Sung HK</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>1</integer>
+        <key>languageID</key>
+        <integer>1033</integer>
+        <key>nameID</key>
+        <integer>17</integer>
+        <key>platformID</key>
+        <integer>3</integer>
+        <key>string</key>
+        <string>ExtraLight</string>
+      </dict>
+      <dict>
+        <key>encodingID</key>
+        <integer>1</integer>
+        <key>languageID</key>
+        <integer>1033</integer>
+        <key>nameID</key>
+        <integer>25</integer>
+        <key>platformID</key>
+        <integer>3</integer>
+        <key>string</key>
+        <string>ChironSungHK</string>
+      </dict>
+    </array>
     <key>openTypeOS2CodePageRanges</key>
     <array>
       <integer>0</integer>
@@ -192,9 +253,9 @@
     <key>postscriptFamilyOtherBlues</key>
     <array/>
     <key>postscriptFontName</key>
-    <string>ChironSungHK-ExtraLight</string>
+    <string>ChironSungHK-Regular</string>
     <key>postscriptFullName</key>
-    <string>Chiron Sung HK ExtraLight</string>
+    <string>Chiron Sung HK Regular</string>
     <key>postscriptIsFixedPitch</key>
     <false/>
     <key>postscriptOtherBlues</key>
@@ -208,7 +269,7 @@
     <key>postscriptUnderlineThickness</key>
     <integer>0</integer>
     <key>styleMapFamilyName</key>
-    <string>Chiron Sung HK ExtraLight</string>
+    <string>Chiron Sung HK</string>
     <key>styleName</key>
     <string>Regular</string>
     <key>unitsPerEm</key>
